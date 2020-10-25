@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Celo Health Practical Challenge" allow-return-values="true" verbose="1">
+    <listeners>
+        <listener class-name="listener.RetryTransformer"></listener>
+        <listener class-name="listener.TestListener"></listener>
+    </listeners>
+    <test name="Show info message for Celo Health Practical Challenge">
+        <classes>
+            <class name="testcases.TC1_LoginToApplication"></class>
+            <class name="testcases.TC2_SetupPinAndSendMessage"></class>
+        </classes>
+    </test>
+
+</suite>
