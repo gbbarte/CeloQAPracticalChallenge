@@ -24,6 +24,7 @@ import static util.TestUtil.getTestData;
 
 //Glenn Barte
 //bt2
+//bt3
 public class TC1_LoginToApplication {
     public BasePage basePage;
     public WebDriver driver;
