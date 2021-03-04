@@ -31,6 +31,7 @@ public class TC1_LoginToApplication {
     public LoginPage loginPage;
     public SetPinPage setPinPage;
 
+
     @BeforeMethod // this method will be executed before every @test method
     public void setUp() {
         basePage = new BasePage();
