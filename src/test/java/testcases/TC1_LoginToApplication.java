@@ -23,6 +23,7 @@ import static constants.Constants.*;
 import static util.TestUtil.getTestData;
 
 //Glenn Barte
+//bt2
 public class TC1_LoginToApplication {
     public BasePage basePage;
     public WebDriver driver;
